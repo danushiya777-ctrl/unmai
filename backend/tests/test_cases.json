@@ -1,0 +1,86 @@
+[
+  {
+    "id": "false_1",
+    "category": "known_false",
+    "text": "UNESCO has officially declared the Indian National Anthem as the best national anthem in the world.",
+    "expected_verdicts": ["false", "unverified"],
+    "notes": "Viral hoax repeatedly debunked by BoomLive, Quint, and UNESCO."
+  },
+  {
+    "id": "false_2",
+    "category": "known_false",
+    "text": "RBI warns that all 500 rupee currency notes containing a star symbol are fake and invalid tender.",
+    "expected_verdicts": ["false", "unverified"],
+    "notes": "Debunked officially by Reserve Bank of India and PIB Fact Check."
+  },
+  {
+    "id": "false_3",
+    "category": "known_false",
+    "text": "Drinking boiled hot lemon water with baking soda immediately eliminates coronavirus and cures all cancers.",
+    "expected_verdicts": ["false", "unverified"],
+    "notes": "Medical misinformation debunked by WHO, PIB, and Alt News."
+  },
+  {
+    "id": "false_4",
+    "category": "known_false",
+    "text": "NASA satellite captures real-time photograph showing entire India illuminated with lights specifically on Diwali night.",
+    "expected_verdicts": ["false", "unverified"],
+    "notes": "Classic viral recycled graphic debunked by NASA and Reuters."
+  },
+  {
+    "id": "true_1",
+    "category": "known_true",
+    "text": "ISRO Chandrayaan-3 successfully achieved a soft landing near the lunar south pole on August 23, 2023.",
+    "expected_verdicts": ["true", "unverified"],
+    "notes": "Historic official public announcement by Indian Space Research Organisation."
+  },
+  {
+    "id": "true_2",
+    "category": "known_true",
+    "text": "The World Health Organization officially declared smallpox eradicated globally following certified surveillance.",
+    "expected_verdicts": ["true", "unverified"],
+    "notes": "Established global public health milestone verified across medical archives."
+  },
+  {
+    "id": "true_3",
+    "category": "known_true",
+    "text": "Reserve Bank of India officially launched pilots of the Digital Rupee (e-Rupee) for wholesale and retail use.",
+    "expected_verdicts": ["true", "unverified"],
+    "notes": "Official public press release by the Reserve Bank of India."
+  },
+  {
+    "id": "true_4",
+    "category": "known_true",
+    "text": "Ministry of Health and Family Welfare conducts nationwide HPV vaccination initiatives to prevent cervical cancer.",
+    "expected_verdicts": ["true", "unverified"],
+    "notes": "Documented public health programme by Government of India."
+  },
+  {
+    "id": "recycled_photo_1",
+    "category": "old_photo_false_caption",
+    "text": "Breaking: Terrible explosion reported at the city central train station just minutes ago! Share to alert others.",
+    "expected_verdicts": ["false", "unverified"],
+    "notes": "Old 2018 storage warehouse fire photograph shared as a recent train station blast."
+  },
+  {
+    "id": "recycled_photo_2",
+    "category": "old_photo_false_caption",
+    "text": "Flash flood and cloudburst completely washed away the mountain highway early this morning.",
+    "expected_verdicts": ["false", "unverified"],
+    "notes": "Old disaster archival photo recycled out of context."
+  },
+  {
+    "id": "unverifiable_1",
+    "category": "opinion_or_unverifiable",
+    "text": "The newly proposed high-speed train corridor will be the greatest engineering achievement in modern history.",
+    "expected_verdicts": ["unverified"],
+    "notes": "Subjective opinion and future value judgment; not objectively checkable."
+  },
+  {
+    "id": "unverifiable_2",
+    "category": "opinion_or_unverifiable",
+    "text": "It is definitely going to rain very heavily across the southern districts next weekend during the festival.",
+    "expected_verdicts": ["unverified"],
+    "notes": "Speculative weather prediction; lacks verifiable factual confirmation."
+  }
+]

@@ -1,0 +1,104 @@
+{
+  "@@locale": "en",
+  "appName": "Unmai",
+  "appTagline": "Check before you share.",
+  "tabVerify": "Verify",
+  "tabHistory": "History",
+  "tabSettings": "Settings",
+
+  "pasteBoxPlaceholder": "Paste suspicious message, claim, or link here...",
+  "pasteButton": "Paste from clipboard",
+  "pickImage": "Photo",
+  "pickVideo": "Video",
+  "removeAttachment": "Remove attachment",
+  "verifyButton": "Verify now",
+
+  "progressReading": "Reading content",
+  "progressSearching": "Searching sources",
+  "progressCheckingMedia": "Checking media",
+  "progressResult": "Preparing result",
+
+  "emptyInputError": "Please enter text, a URL, or attach a photo or video.",
+  "invalidUrlError": "Please enter a valid web URL.",
+  "fileTooLargeError": "File exceeds 50MB limit.",
+  "unsupportedFileError": "Unsupported format. Please select JPG, PNG, WEBP, or MP4.",
+
+  "verdictTrue": "True",
+  "verdictFalse": "False",
+  "verdictMisleading": "Misleading",
+  "verdictUnverified": "Can't verify",
+
+  "correctnessTitle": "Correctness meter",
+  "claimsSupported": "{supported} of {total} claims supported",
+  "@claimsSupported": {
+    "placeholders": {
+      "supported": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "evidenceStrengthStrong": "Strong evidence",
+  "evidenceStrengthMedium": "Medium evidence",
+  "evidenceStrengthWeak": "Weak evidence",
+  "notEnoughEvidence": "Not enough evidence for a reliable score.",
+
+  "mediaAssessmentTitle": "Media check",
+  "mediaLikelyAi": "Likely AI",
+  "mediaPossiblyAi": "Possibly AI",
+  "mediaInconclusive": "Inconclusive",
+  "mediaToolUsed": "Tool used: {tool}",
+  "@mediaToolUsed": {
+    "placeholders": {
+      "tool": { "type": "String" }
+    }
+  },
+  "mediaLimitations": "Limitations: {limitations}",
+  "@mediaLimitations": {
+    "placeholders": {
+      "limitations": { "type": "String" }
+    }
+  },
+
+  "confirmedByTitle": "Confirmed by",
+  "whyFalseTitle": "Why this is false",
+  "claimsBreakdownTitle": "Claim-by-claim breakdown",
+  "shareCorrectionCard": "Share correction card",
+  "checkedWithUnmai": "Checked with Unmai",
+  "demoDataBanner": "Demo data. Not a live finding.",
+
+  "supportingEvidence": "Supporting evidence",
+  "contradictingEvidence": "Contradicting evidence",
+  "missingContext": "Missing context",
+  "publishedOn": "Published: {date}",
+  "@publishedOn": {
+    "placeholders": {
+      "date": { "type": "String" }
+    }
+  },
+  "openSourceLink": "Open source link",
+
+  "historyTitle": "History",
+  "searchPlaceholder": "Search previous checks...",
+  "filterAll": "All",
+  "emptyHistoryTitle": "No checks yet",
+  "emptyHistorySubtitle": "Suspicious forwards you verify will be saved here on your device.",
+  "deleteReportConfirm": "Delete this report?",
+  "deleteButton": "Delete",
+  "cancelButton": "Cancel",
+  "savedToHistory": "Saved to history",
+
+  "settingsTitle": "Settings",
+  "languageTitle": "Language",
+  "howUnmaiDecidesTitle": "How Unmai decides",
+  "howUnmaiDecidesContent": "Unmai compares claims against authoritative fact-check databases, official sources, and public records. If reliable evidence cannot be found, we clearly mark it as unverified rather than guessing.",
+  "privacyTitle": "Privacy note",
+  "privacyContent": "All your verification history is saved locally on your phone. When you verify a claim, only that text or media is sent securely to the server. We do not sell your data or track your identity.",
+  "demoModeTitle": "Demo mode",
+  "demoModeSubtitle": "Use built-in realistic examples for practice",
+  "appVersionTitle": "App version",
+  "versionNumber": "1.0.0 (Unmai)",
+
+  "offlineError": "No internet connection. Please check your network and try again.",
+  "timeoutError": "The check took too long to complete. Please try again.",
+  "serverError": "Could not connect to the verification service. Please try again shortly.",
+  "retryButton": "Try again"
+}

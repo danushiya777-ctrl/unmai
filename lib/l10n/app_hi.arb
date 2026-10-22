@@ -1,0 +1,104 @@
+{
+  "@@locale": "hi",
+  "appName": "Unmai",
+  "appTagline": "शेयर करने से पहले जांचें।",
+  "tabVerify": "जांचें",
+  "tabHistory": "इतिहास",
+  "tabSettings": "सेटिंग्स",
+
+  "pasteBoxPlaceholder": "संदिग्ध संदेश, दावा या लिंक यहाँ पेस्ट करें...",
+  "pasteButton": "क्लिपबोर्ड से पेस्ट करें",
+  "pickImage": "तस्वीर",
+  "pickVideo": "वीडियो",
+  "removeAttachment": "हटाएं",
+  "verifyButton": "अभी जांचें",
+
+  "progressReading": "सामग्री पढ़ रहे हैं",
+  "progressSearching": "स्रोत खोज रहे हैं",
+  "progressCheckingMedia": "तस्वीर/वीडियो की जांच",
+  "progressResult": "परिणाम तैयार कर रहे हैं",
+
+  "emptyInputError": "कृपया कोई संदेश, लिंक दर्ज करें या तस्वीर/वीडियो चुनें।",
+  "invalidUrlError": "कृपया एक मान्य वेब लिंक (URL) दर्ज करें।",
+  "fileTooLargeError": "फ़ाइल का आकार 50MB से अधिक है।",
+  "unsupportedFileError": "असमर्थित प्रारूप। कृपया JPG, PNG, WEBP या MP4 चुनें।",
+
+  "verdictTrue": "सच",
+  "verdictFalse": "गलत",
+  "verdictMisleading": "भ्रामक",
+  "verdictUnverified": "पुष्टि नहीं हो सकी",
+
+  "correctnessTitle": "सटीकता मीटर",
+  "claimsSupported": "{total} में से {supported} दावे सही पाए गए",
+  "@claimsSupported": {
+    "placeholders": {
+      "supported": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "evidenceStrengthStrong": "मजबूत सबूत",
+  "evidenceStrengthMedium": "मध्यम सबूत",
+  "evidenceStrengthWeak": "कमजोर सबूत",
+  "notEnoughEvidence": "सटीक स्कोर के लिए पर्याप्त सबूत उपलब्ध नहीं हैं।",
+
+  "mediaAssessmentTitle": "मीडिया जांच",
+  "mediaLikelyAi": "संभावित कृत्रिम निर्माण (AI)",
+  "mediaPossiblyAi": "संभावित फेरबदल",
+  "mediaInconclusive": "अस्पष्ट (निर्णय नहीं हो सका)",
+  "mediaToolUsed": "प्रयुक्त साधन: {tool}",
+  "@mediaToolUsed": {
+    "placeholders": {
+      "tool": { "type": "String" }
+    }
+  },
+  "mediaLimitations": "सीमाएं: {limitations}",
+  "@mediaLimitations": {
+    "placeholders": {
+      "limitations": { "type": "String" }
+    }
+  },
+
+  "confirmedByTitle": "इन स्रोतों द्वारा पुष्टि की गई",
+  "whyFalseTitle": "यह गलत क्यों है",
+  "claimsBreakdownTitle": "दावों का विस्तृत विवरण",
+  "shareCorrectionCard": "सुधार कार्ड शेयर करें",
+  "checkedWithUnmai": "Unmai द्वारा जाँचा गया",
+  "demoDataBanner": "डेमो डेटा। यह वास्तविक परिणाम नहीं है।",
+
+  "supportingEvidence": "समर्थक सबूत",
+  "contradictingEvidence": "खंडन करने वाले सबूत",
+  "missingContext": "गायब संदर्भ",
+  "publishedOn": "प्रकाशित: {date}",
+  "@publishedOn": {
+    "placeholders": {
+      "date": { "type": "String" }
+    }
+  },
+  "openSourceLink": "मूल स्रोत लिंक खोलें",
+
+  "historyTitle": "इतिहास",
+  "searchPlaceholder": "पिछली जांच खोजें...",
+  "filterAll": "सभी",
+  "emptyHistoryTitle": "अभी कोई जांच नहीं हुई",
+  "emptyHistorySubtitle": "आपके द्वारा जाँचे गए संदेश सुरक्षित रूप से केवल आपके फ़ोन पर सहेजे जाएंगे।",
+  "deleteReportConfirm": "क्या इस रिपोर्ट को हटाना चाहते हैं?",
+  "deleteButton": "हटाएं",
+  "cancelButton": "रद्द करें",
+  "savedToHistory": "इतिहास में सहेजा गया",
+
+  "settingsTitle": "सेटिंग्स",
+  "languageTitle": "भाषा (Language)",
+  "howUnmaiDecidesTitle": "Unmai कैसे निर्णय लेता है",
+  "howUnmaiDecidesContent": "Unmai संदेशों की तुलना आधिकारिक डेटाबेस, सरकारी घोषणाओं और विश्वसनीय समाचार स्रोतों से करता है। अगर पुख्ता सबूत नहीं मिलते, तो हम अंदाज़ा लगाने के बजाय स्पष्ट रूप से 'पुष्टि नहीं हो सकी' बताते हैं।",
+  "privacyTitle": "गोपनीयता नोट",
+  "privacyContent": "आपकी सभी जाँची गई रिपोर्ट केवल आपके फ़ोन में रहती हैं। विश्लेषण के लिए केवल संदेश सर्वर पर भेजा जाता है। हम आपका व्यक्तिगत डेटा कभी नहीं बेचते।",
+  "demoModeTitle": "डेमो मोड (Demo)",
+  "demoModeSubtitle": "अभ्यास के लिए तैयार उदाहरणों का उपयोग करें",
+  "appVersionTitle": "ऐप संस्करण",
+  "versionNumber": "1.0.0 (Unmai)",
+
+  "offlineError": "इंटरनेट कनेक्शन नहीं है। कृपया नेटवर्क जांचें और पुनः प्रयास करें।",
+  "timeoutError": "जांच में अधिक समय लगा। कृपया पुनः प्रयास करें।",
+  "serverError": "सत्यापन सेवा से कनेक्ट नहीं हो सका। कृपया थोड़ी देर बाद प्रयास करें।",
+  "retryButton": "फिर से प्रयास करें"
+}
